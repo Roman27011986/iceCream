@@ -1,7 +1,7 @@
 .cow-section {
   width: 100%;
   background-color: #fff5f6;
-  padding-top: 125px;
+  padding-top: 100px;
   padding-bottom: 97px;
   padding-right: 0;
   padding-left: 0;
@@ -30,6 +30,7 @@
   min-width: 176px;
   background-color: #ffb8ca;
   color: #ffffff;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
   @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -47,6 +48,10 @@
   letter-spacing: 0.04em;
 }
 .cow-features-title {
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  color: $dark-pink-text-color;
   font-size: 36px;
   line-height: 1.14;
   letter-spacing: 0.04em;
