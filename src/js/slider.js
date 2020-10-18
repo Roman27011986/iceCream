@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $('.slider').slick({
-    arrows: false,
+    arrows: true,
     infinite: false,
     dots: true,
     slidesToShow: 1,
@@ -8,11 +8,6 @@ $(document).ready(function () {
     speed: 850,
     easing: 'ease',
     initialSlide: 0,
-    // autoplay: false,
-    // autoplaySpeed: 500,
-    // centerMode: true,
-    // variableWidth: true,
-
     responsive: [
       {
         breakpoint: 768,
