@@ -183,6 +183,24 @@
   }
 }
 
+.card-item-tel,
+.card-item-mail {
+  color: #907e82;
+  transition: 250ms;
+}
+
+.card-item-tel:hover,
+.card-item-tel:focus {
+  color: $dark-pink-text-color;
+  transition: 250ms;
+}
+
+.card-item-mail:hover,
+.card-item-mail:focus {
+  color: $dark-pink-text-color;
+  transition: 250ms;
+}
+
 .button-cities {
   align-items: center;
   margin-top: 54px;
