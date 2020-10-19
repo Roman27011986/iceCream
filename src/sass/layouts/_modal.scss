@@ -73,7 +73,7 @@
 
 
 .close-modal {
-    color: #aaa;
+    fill: #FFF;
     background: none;
     position: absolute;
     top: 10px;
@@ -112,9 +112,7 @@
    overflow:hidden;
    animation: hi 0.5s;
    -webkit-transform: translateZ(0px);
-   *{
-      box-sizing:border-box;
-   }
+   
 }
 
 .pages{

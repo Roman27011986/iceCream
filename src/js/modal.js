@@ -125,12 +125,13 @@ $(document).ready(function() {
         if(!blocked){
             block(400);
             TweenMax.to($overlay, 0.3, {
+                
                 delay: 0.3,
                 autoAlpha: 0
             });
             TweenMax.to($modal, 0.3,{
                 x: ($(window).width() + $modal.width()) / 2 + 100,
-                scale:0.9,
+                scale: 0.9,
                 ease: Quad.easeInOut,
                 force3D: false,
                 onComplete:function(){
@@ -158,6 +159,7 @@ $(document).ready(function() {
     })
     $(".close-modal,.modal-overlay,.input-submit").click(function() {
         closeModal();
+        
     })
 
     $modal.initBlur(0.5);

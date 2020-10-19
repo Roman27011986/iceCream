@@ -2,6 +2,7 @@ const btnOpen = document.querySelector('.btnOpen');
 const btnClose = document.querySelector('.btnClose');
 const header__menu = document.querySelector('.header__menu');
 
+
 const nav__item = document.querySelector('nav__item');
 const tl = new TimelineMax({ paused: true });
   tl.timeScale(1);
