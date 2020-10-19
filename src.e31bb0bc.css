@@ -229,7 +229,7 @@ button {
 }
 @media (min-width: 768px) {
   .container--centred {
-    padding-top: 37px;
+    padding-top: 20px;
   }
 }
 
@@ -262,7 +262,7 @@ button {
     height: 500px;
     border-radius: 0 0 15px 15px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    background: linear-gradient(90deg, #ee5c87, #f1a4b5, #ee5c87);
+    background: #e17992;
   }
 }
 
@@ -317,13 +317,13 @@ button {
 }
 @media screen and (max-width: 1199px) {
   .nav__item {
-    border-bottom: 1px solid #E18298;
+    border-bottom: 1px solid #e18298;
   }
 }
 
 @media screen and (max-width: 1199px) {
   .nav__item:first-child {
-    border-top: 1px solid #E18298;
+    border-top: 1px solid #e18298;
   }
 }
 
@@ -1259,8 +1259,6 @@ button {
   .milk-cow-picture {
     width: calc((100% - 15px) / 2);
     margin-top: 50px;
-    padding-right: 20px;
-    padding-left: 20px;
   }
 
   .milk-cow-paragraph {
@@ -1315,7 +1313,8 @@ button {
     background-size: 100%;
     background-image: url("/desctop-ice-cream.361b9789.png");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
+    justify-content: center;
   }
 }
 @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
@@ -1327,16 +1326,6 @@ button {
 @media screen and (max-width: 1199px) and (min-width: 768px) {
   .milk-cow {
     background-image: inherit;
-  }
-}
-
-.cow-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-@media screen and (min-width: 768px) {
-  .cow-list {
-    flex-wrap: nowrap;
   }
 }
 
@@ -1369,6 +1358,55 @@ button {
 
   .cow-section {
     padding-bottom: 185px;
+  }
+}
+.cow-features {
+  font-family: DM Sans;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.7;
+}
+@media screen and (min-width: 320px) and (max-width: 450px) {
+  .cow-features {
+    width: 230px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cow-features {
+    width: 180px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cow-part:first-child {
+    margin-left: 40px;
+  }
+
+  .cow-part:last-child {
+    margin-right: 70px;
+  }
+
+  .cont {
+    margin-left: 80px;
+  }
+}
+.cow-part {
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  .cow-part:first-child {
+    margin-right: 70px;
+    margin-left: 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cow-list {
+    display: flex;
+  }
+
+  .cow-part:first-child {
+    margin-right: 0;
   }
 }
 @media screen and (max-width: 479px) {
@@ -1867,6 +1905,24 @@ button {
     font-size: 16px;
     line-height: 1.88;
   }
+}
+
+.card-item-tel,
+.card-item-mail {
+  color: #907e82;
+  transition: 250ms;
+}
+
+.card-item-tel:hover,
+.card-item-tel:focus {
+  color: #d41443;
+  transition: 250ms;
+}
+
+.card-item-mail:hover,
+.card-item-mail:focus {
+  color: #d41443;
+  transition: 250ms;
 }
 
 .button-cities {
